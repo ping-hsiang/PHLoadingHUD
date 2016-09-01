@@ -17,12 +17,12 @@
 
 /* Begin PBXFileReference section */
 		17BA73EB1D781CD700B91CCF /* DemoHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		17BA73EE1D781CD700B91CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17BA73F01D781CD700B91CCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17BA73EE1D781CD700B91CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DemoHUD/AppDelegate.swift; sourceTree = "<group>"; };
+		17BA73F01D781CD700B91CCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = DemoHUD/ViewController.swift; sourceTree = "<group>"; };
 		17BA73F31D781CD700B91CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		17BA73F51D781CD700B91CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17BA73F51D781CD700B91CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DemoHUD/Assets.xcassets; sourceTree = "<group>"; };
 		17BA73F81D781CD700B91CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		17BA73FA1D781CD700B91CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BA73FA1D781CD700B91CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoHUD/Info.plist; sourceTree = "<group>"; };
 		17BA74001D781CE600B91CCF /* PHLoadingHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHLoadingHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +41,13 @@
 			isa = PBXGroup;
 			children = (
 				17BA73ED1D781CD700B91CCF /* DemoHUD */,
+				17BA74021D781CF700B91CCF /* PHLoadingHUD */,
+				17BA73F01D781CD700B91CCF /* ViewController.swift */,
+				17BA73EE1D781CD700B91CCF /* AppDelegate.swift */,
+				17BA73F51D781CD700B91CCF /* Assets.xcassets */,
+				17BA73F21D781CD700B91CCF /* Main.storyboard */,
+				17BA73F71D781CD700B91CCF /* LaunchScreen.storyboard */,
+				17BA73FA1D781CD700B91CCF /* Info.plist */,
 				17BA73EC1D781CD700B91CCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,13 +63,6 @@
 		17BA73ED1D781CD700B91CCF /* DemoHUD */ = {
 			isa = PBXGroup;
 			children = (
-				17BA74021D781CF700B91CCF /* PHLoadingHUD */,
-				17BA73F01D781CD700B91CCF /* ViewController.swift */,
-				17BA73EE1D781CD700B91CCF /* AppDelegate.swift */,
-				17BA73F51D781CD700B91CCF /* Assets.xcassets */,
-				17BA73F21D781CD700B91CCF /* Main.storyboard */,
-				17BA73F71D781CD700B91CCF /* LaunchScreen.storyboard */,
-				17BA73FA1D781CD700B91CCF /* Info.plist */,
 			);
 			path = DemoHUD;
 			sourceTree = "<group>";
@@ -73,6 +73,7 @@
 				17BA74001D781CE600B91CCF /* PHLoadingHUD.swift */,
 			);
 			name = PHLoadingHUD;
+			path = DemoHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +163,7 @@
 				17BA73F31D781CD700B91CCF /* Base */,
 			);
 			name = Main.storyboard;
+			path = DemoHUD;
 			sourceTree = "<group>";
 		};
 		17BA73F71D781CD700B91CCF /* LaunchScreen.storyboard */ = {
@@ -170,6 +172,7 @@
 				17BA73F81D781CD700B91CCF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = DemoHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -309,6 +312,7 @@
 				17BA73FF1D781CD700B91CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
