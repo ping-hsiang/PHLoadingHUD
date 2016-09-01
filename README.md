@@ -1,6 +1,8 @@
 # PHLoadingHUD
 
-####根據指定的圖片名來加載序列圖片並放進HUD，如動畫圖片有test1...test10只需 PHLoadingHUD.Show("test") 就可以show出圖片動畫的HUD。
+###說明
+        根據指定的動畫圖片名來加載序列圖片，如動畫圖片有test1...test10一連串連續名，只需把test帶入
+        PHLoadingHUD.Show("test")就可以show出動畫圖片的HUD。
 
 ###使用方法
         /* HUD尺寸設置 */
