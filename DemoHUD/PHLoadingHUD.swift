@@ -87,7 +87,7 @@ public class PHLoadingHUD {
     }
     
     
-    /*帶入一系列依邊號命名的檔名*/
+    /*帶入一系列依邊號命名的圖檔名*/
     public class func show(Name:String) {
         guard let previousWindow = UIApplication.shared.delegate?.window else {
             assert(false, "Couldn't find main window.")

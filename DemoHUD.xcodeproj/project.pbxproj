@@ -40,7 +40,6 @@
 		17BA73E21D781CD700B91CCF = {
 			isa = PBXGroup;
 			children = (
-				17BA73ED1D781CD700B91CCF /* DemoHUD */,
 				17BA74021D781CF700B91CCF /* PHLoadingHUD */,
 				17BA73F01D781CD700B91CCF /* ViewController.swift */,
 				17BA73EE1D781CD700B91CCF /* AppDelegate.swift */,
@@ -58,13 +57,6 @@
 				17BA73EB1D781CD700B91CCF /* DemoHUD.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		17BA73ED1D781CD700B91CCF /* DemoHUD */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DemoHUD;
 			sourceTree = "<group>";
 		};
 		17BA74021D781CF700B91CCF /* PHLoadingHUD */ = {
